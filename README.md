@@ -12,7 +12,7 @@ english:
 
   
 
-`git clone https://github.com/badafans/v2ray-cloudfoundry.git`
+`git clone https://github.com/youshang2580/v2ray-cloudfoundry.git`
 
 `cd v2ray-cloudfoundry/v2ray`
 
@@ -39,6 +39,8 @@ applications:
   
 
 `ibmcloud target --cf`
+
+`ibmcloud cf install`
 
 `ibmcloud cf push`
 
@@ -75,11 +77,13 @@ applications:
 
   random-route: true
 
-  memory: 128M//这里改成你的容器的内存
+  memory: 256M//这里改成你的容器的内存
 
   
 
 `ibmcloud target --cf`
+
+`ibmcloud cf install`
 
 `ibmcloud cf push`
 
